@@ -2,11 +2,13 @@
 :root{
     --clr-negro:#1c1c1c;
     --clr-gris: #ececec;
+    --clr-tono1-gris: #bdbdbd;
     --clr-blanco:#f7f7f7;
     --clr-amarillo: #f2fa22;
     --clr-tono1-amarillo: #faf5c8;
     --clr-tono2-amarillo: #fad889;
     --clr-naranja: #fbbe9a;
+    --clr-cafe: #bda2a2;
 
     --type-normal: #a8a878;
     --type-fuego: #f08030;
@@ -173,6 +175,54 @@ header{
 .blanco:hover{
     background-color: var(--clr-amarillo);
     color: var(--clr-negro);
-    transition: 2s;
+    transition: 1s;
 }
 
+
+.pokemon-todos{
+    color: #1c1c1c;
+    /* border: solid; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.pokemon{
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: .2rem 0 .2rem .4rem;
+    background-color: var(--clr-naranja);
+    box-shadow: 3px 3px var(--clr-cafe);
+    text-transform: uppercase;  
+    position: relative; /* se utiliza en contenedor padre para definir position absolute en algún hijo*/
+    isolation: isolate; /* define al padre como limite, de lo atras que se puede mover un elemento con z.index*/
+    overflow: hidden; /*borra parte del texto que sobre salga del padre*/
+}
+
+.pokemon-id-back{   
+  position: absolute; /* habilta la edición de posición manual con valores top-bottom-left-right*/
+  top: 4.5rem;
+  left: 50%; /*intenta posicionar en la mitad del eje y*/
+  transform: translateX(-50%);/*ubica el centro del eje y */
+  font-size:13rem;
+  font-weight: bold;
+  color: var(--clr-tono2-amarillo);
+  z-index: -1;
+  
+}
+/* imágene de pokemón */
+.pokemon-imagen{
+    padding-block: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;    
+    
+}
+
+.pokemon-imagen img{
+    width: 100%;
+    max-width: 15rem;
+}
+
+.pokemo-info{
+
+}
