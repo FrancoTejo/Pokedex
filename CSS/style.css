@@ -194,7 +194,7 @@ header{
 .pokemon-todos{
     color: #1c1c1c;    
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
 .pokemon{
@@ -295,23 +295,16 @@ header{
 }
 
 
-@media  screen and (min-width: 200px){
-    .pokemon-todos{        
-        grid-template-columns: 1fr;
-        
-    }
-}
-
-@media  screen and (min-width: 500px){
+@media  screen and (max-width: 870px){
     .pokemon-todos{        
         grid-template-columns: 1fr 1fr;
         
     }
 }
 
-@media  screen and (min-width: 780px){
+@media  screen and (max-width: 480px){
     .pokemon-todos{        
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         
     }
 }
