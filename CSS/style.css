@@ -41,3 +41,80 @@ button{
     border-radius: 0;
 }
 
+.Normal{
+    background-color: var(--type-normal);
+    color: var(--clr-negro);
+}
+
+.Fuego{
+    background-color: var(--type-fuego);
+    color: var(--type-negro);
+}
+
+.Agua{
+    background-color: var(--type-agua);
+    color: var(--clr-blanco);
+
+}
+
+.Hierba{
+    background-color: var(--type-planta);
+    color: var(--clr-negro);
+}
+.Electrico{
+    background-color: var(--type-electrico);
+    color: var(--clr-negro);
+}
+.Hielo{
+    background-color: var(--type-hielo);
+    color: var(--clr-negro);
+}
+.Lucha{
+    background-color: var(--type-lucha);
+    color: var(--clr-blanco);
+}
+.Veneno{
+    background-color: var(--type-veneno);
+    color: var(--clr-blanco);
+}
+.Terrestre{
+    background-color: var(--type-terrestre);
+    color: var(--clr-blanco);
+}
+.Volador{
+    background-color: var(--type-volador);
+    color: var(--clr-negro);
+}
+.Psiquico{
+    background-color: var(--type-psiquico);
+    color: var(--clr-negro);
+}
+.Insecto{
+    background-color: var(--type-insecto);
+    color: var(--clr-negro);
+}
+.Roca{
+    background-color: var(--type-roca);
+    color: var(--clr-negro);
+}
+.Fantasma{
+    background-color: var(--type-fantasma);
+    color: var(--clr-blanco);
+}
+.Obscuro{
+    background-color: var(--type-oscuro);
+    color: var(--clr-negro);
+}
+.Dragon{
+    background-color: var(--type-dragon);
+    color: var(--clr-blanco);
+}
+.Acero{
+    background-color: var(--type-acero);
+    color: var(--clr-negro);
+}
+.Hada{
+    background-color: var(--type-hada);
+    color: var(--clr-negro);
+}
+
