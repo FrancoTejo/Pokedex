@@ -141,21 +141,31 @@ body{
 header{
     padding-block: 1rem;/*padding top y bottom */     
     box-shadow: 1rem 0.18rem 2rem .2rem black; 
-    background-color: var(--clr-tono1-amarillo) ;  
+    background-color: var(--clr-tono1-amarillo) ; 
+    
 }
-.nav{
+/* .nav{
     display: flex;
     flex-direction: column;
-    flex-wrap: 1rem;
-    align-items: center;
-    padding-inline: 1rem;
-}
+    gap: 1rem;
+    align-items: flex-start;
+    padding-inline: 2rem;       
+} */
 
 .nav-list{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: .5rem;    
+    gap: .5rem; 
+    padding-inline: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;      
+}
+
+.main{
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .btn-header{
@@ -182,10 +192,9 @@ header{
 
 
 .pokemon-todos{
-    color: #1c1c1c;
-    /* border: solid; */
+    color: #1c1c1c;    
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
 }
 .pokemon{
