@@ -1,8 +1,8 @@
+/* Se definen variables */
 :root{
     --clr-negro:#1c1c1c;
     --clr-gris: #ececec;
     --clr-blanco:#f7f7f7;
-
     --type-normal: #a8a878;
     --type-fuego: #f08030;
     --type-agua: #6890f0;
@@ -23,6 +23,7 @@
     --type-hada: #f0b6c6;
 }
 
+/* Se formatean elementos html */
 *{
     margin: 0;
     padding: 0;
@@ -41,6 +42,7 @@ button{
     border-radius: 0;
 }
 
+/* asignacion de color por tipo de pokemon */
 .Normal{
     background-color: var(--type-normal);
     color: var(--clr-negro);

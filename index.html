@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     </head>
     <body> 
+        <!-- definición de cada tipo de pokemon -->
         <header class="class">
             <nav class="nav-list">
                 <img src="IMAGES/logo.png" alt="Logo Pokedex">
@@ -24,7 +25,7 @@
                         <li class="nav-item"><button class="btn btn-header Fuego" id="fuego">Fuego</button></li>
                         <li class="nav-item"><button class="btn btn-header Agua" id="agua">Agua</button></li>
                         <li class="nav-item"><button class="btn btn-header Hierba" id="hierba">Hierba</button></li>
-                        <li class="nav-item"><button class="btn btn-header Electrico" id="electrico">Electrico</button></li>
+                        <li class="nav-item"><button class="btn btn-header Electrico" id="electrico">Eléctrico</button></li>
                         <li class="nav-item"><button class="btn btn-header Hielo" id="hielo">Hielo</button></li>
                         <li class="nav-item"><button class="btn btn-header Lucha" id="lucha">Lucha</button></li>
                         <li class="nav-item"><button class="btn btn-header Veneno" id="veneno">Veneno</button></li>
@@ -43,7 +44,31 @@
             </nav>
         </header>
         <main>
-
+            <div id="todos">
+                <div class="pokemon-todos" id="lista-pokemon">
+                    <div class="pokemon">
+                        <p class="pokemon-id-back">#025</p>
+                        <div class="pokemon-imagen"> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/25.gif" alt="imágen pikachu"></div>
+                        <div class="pokemon-info">
+                            <div class="nombre-contenedor">
+                                <p class="pokemon-id">#025</p>
+                                <h2 class="pokemon-nombre">Pikachu</h2>
+                            </div>
+                            <div class="pokemom-tipos">
+                                <p class="tipo Electrico">Eléctrico</p>
+                                <p class="tipo Veneno">Algo</p>
+                            </div>
+                            <div class="pokemon-skills">
+                                <p class="habilidades">static</p>
+                            </div>
+                            <div class="pokemon-stats">
+                                <p class="stats">4mts</p>
+                                <p class="stats">20kg</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
         <script src="JS/JavaScript.js"></script>
     </body>
