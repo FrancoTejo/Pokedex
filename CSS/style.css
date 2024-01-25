@@ -3,6 +3,11 @@
     --clr-negro:#1c1c1c;
     --clr-gris: #ececec;
     --clr-blanco:#f7f7f7;
+    --clr-amarillo: #f2fa22;
+    --clr-tono1-amarillo: #faf5c8;
+    --clr-tono2-amarillo: #fad889;
+    --clr-naranja: #fbbe9a;
+
     --type-normal: #a8a878;
     --type-fuego: #f08030;
     --type-agua: #6890f0;
@@ -43,6 +48,10 @@ button{
 }
 
 /* asignacion de color por tipo de pokemon */
+.ver-todos{
+    background-color: var(--clr-blanco);
+}
+
 .Normal{
     background-color: var(--type-normal);
     color: var(--clr-negro);
@@ -118,5 +127,52 @@ button{
 .Hada{
     background-color: var(--type-hada);
     color: var(--clr-negro);
+}
+
+body{
+    min-height: 100vh;
+    background-color: var(--clr-tono2-amarillo);
+}
+
+header{
+    padding-block: 1rem;/*padding top y bottom */     
+    box-shadow: 1rem 0.18rem 2rem .2rem black; 
+    background-color: var(--clr-tono1-amarillo) ;  
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: 1rem;
+    align-items: center;
+    padding-inline: 1rem;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;    
+}
+
+.btn-header{
+    padding: .5rem; /*bordes */
+    border-radius: 100vmax; /*aseguramos que se vea igual en todas las pantallas*/
+    cursor: pointer; /* se cambia cursor a una mano cuando se pasa por arriba*/
+    text-transform: uppercase; /* se cambia letras a mayúsculas*/
+    font-weight: bold; /*letra gruesa*/
+    box-shadow: 0 0 1rem rgb(0, 0, 0, .25); /* se agrega sombra*/    
+}
+
+.btn:hover{
+    background-color: var(--clr-negro);
+    color: var(--clr-blanco);    
+    transition: 2s; 
+    transform: scale(1.1);  /* agranda los elementos */
+}
+
+.blanco:hover{
+    background-color: var(--clr-amarillo);
+    color: var(--clr-negro);
+    transition: 2s;
 }
 
