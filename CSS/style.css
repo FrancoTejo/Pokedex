@@ -1,0 +1,43 @@
+:root{
+    --clr-negro:#1c1c1c;
+    --clr-gris: #ececec;
+    --clr-blanco:#f7f7f7;
+
+    --type-normal: #a8a878;
+    --type-fuego: #f08030;
+    --type-agua: #6890f0;
+    --type-planta: #78c850;
+    --type-electrico: #f8d030;
+    --type-hielo: #98d8d8;
+    --type-lucha: #c03028;
+    --type-veneno: #a040a0;
+    --type-terrestre: #e0c068;
+    --type-volador: #a890f0;
+    --type-psiquico: #f85888;
+    --type-insecto: #a8b820;
+    --type-roca: #b8a038;
+    --type-fantasma: #805898;
+    --type-oscuro: #705848;
+    --type-dragon: #8038f8;
+    --type-acero: #b8b8d0;
+    --type-hada: #f0b6c6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--clr-negro);
+    font-family:'Rubik', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+}
+
